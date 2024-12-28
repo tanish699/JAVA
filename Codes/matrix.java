@@ -8,7 +8,7 @@ public class matrix {
         // Spiral Printing of matrix
 
         int total =25;
-        int top =0, bottom=
+        int top =0, bottom=0;
         for(int i=0;i<arr.length;i++){
 
             for(int j=0;j<arr[i].length;j++){
