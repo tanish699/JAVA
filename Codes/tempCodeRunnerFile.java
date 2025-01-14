@@ -1,1 +1,1 @@
-    // arr3 = new int[10];
+System.out.println(str.contains("Hello"));
