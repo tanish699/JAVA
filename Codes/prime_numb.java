@@ -7,7 +7,6 @@ public class prime_numb {
         Scanner scan = new Scanner(System.in);
            
         int n = scan.nextInt();
-        int c=0;
 
         for(int i=2; i<=n; i++){
            boolean is_prime = true;
