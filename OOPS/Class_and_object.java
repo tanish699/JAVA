@@ -15,6 +15,8 @@ public class Class_and_object {
         car car3 = new car("Sokda", null, 200);
         car3.print();
 
+        car.display();
+
 
     }
     
@@ -42,6 +44,10 @@ class car {
         Color = c;
         speed = s;
         brand = b;
+    }
+
+    static void display(){  //no need to make object to call static void 
+        System.out.println("Static void member");
     }
     
 }
