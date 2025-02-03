@@ -20,7 +20,7 @@ public class Array_with_1indexing {
 
         int[] arr = new int[n+1];
 
-
+      sc.close();
 
 
     }    
