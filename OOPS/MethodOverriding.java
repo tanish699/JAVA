@@ -9,7 +9,7 @@ public class MethodOverriding {
    * Return tupe must be same or can be subclass of the actual return type(co-varianrt)
    * 
    * Constructors can't be over-ridden
-   * static/private/final methods can't be over-ridden
+   * static/private/final methods can't be over-riddenclear
    * 
     @Override annotation can be used while overriding (optional)
    * 
