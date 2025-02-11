@@ -7,6 +7,7 @@ public class abstraction {
      * 
      */
     
+    
 }
 
 abstract class MoterVehicle{  //ab motervehicle ka object create nhi ho skta
@@ -21,7 +22,7 @@ abstract class MoterVehicle{  //ab motervehicle ka object create nhi ho skta
 }
 
 abstract class scooter extends MoterVehicle{
-    
+    /*Class must be abstract beCAUSE IT IS NOT implimenting any abstract method in parent class   */
 }
 
 class car extends MoterVehicle{
@@ -35,3 +36,9 @@ class bike extends MoterVehicle{
         System.out.println("Starts from kick");
     }
 }
+
+   public static void main(String[] args){
+
+    // cannot make objects of abtract vlass
+    // MotorVehicle mv = new MotorVehicle();
+   }
