@@ -6,6 +6,11 @@ public class abstraction {
      * 
      * 
      */
+    public static void main(String[] args){
+
+        // cannot make objects of abtract vlass
+        // MotorVehicle mv = new MotorVehicle();
+       }
     
     
 }
@@ -37,8 +42,4 @@ class bike extends MoterVehicle{
     }
 }
 
-   public static void main(String[] args){
-
-    // cannot make objects of abtract vlass
-    // MotorVehicle mv = new MotorVehicle();
-   }
+  

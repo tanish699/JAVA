@@ -11,14 +11,18 @@ public class Interfaces {
 }
 
 
-interface Animal {
-    int a = 100;
-   void makes_sound();
-    // Constructor
-    // Animal(){
-    //     System.out.println("Interfaces can't have constructors");
+interface Animal{
+    int a = 10;     // constant by default
+    void makes_sound();
+
+    // protected void protected_fun(){
+    //     System.out.println("Can't create protected method in Interfaces");
     // }
+    private void hello(){
+        System.out.println("Hello");
+    }
     default void print(){
+        hello();
         System.out.println("A default method in Interface");
     }
 }
