@@ -1,0 +1,1 @@
+System.out.println(arrayList.size());
