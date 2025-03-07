@@ -1,0 +1,6 @@
+Unlike a regular array, which has a fixed size, 
+an ArrayList can grow and shrink as elements are added or removed. 
+This dynamic resizing is achieved by creating a new array when the
+current array is full and copying the elements → to the new array.
+
+**By Default ArrayList Capacity is of 10**
