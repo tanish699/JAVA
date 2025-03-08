@@ -4,7 +4,7 @@ import java.util.*;
 public class Array_List {
      public static void main(String[] args) {
         ArrayList<Integer> arrayList = new ArrayList<>();
-        List<Integer> arr = new ArrayList<>();
+      //   List<Integer> arr = new ArrayList<>();
 
         //add element to list 
         arrayList.add(10);
