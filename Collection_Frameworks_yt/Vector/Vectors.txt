@@ -1,0 +1,16 @@
+Vectors are thread safe
+*Key Features of Vector
+
+Dynamic Array: Like ArrayList, Vector is a dynamic array that grows automatically when more elements are added than its current capacity. 
+
+Synchronized: All the methods in Vector are synchronized, which makes it thread-safe. 
+This means multiple threads can work on a Vector without the risk of corrupting the data. However, 
+this can introduce performance overhead in single-threaded environments. 
+
+Legacy Class: Vector was part of Java's original release and is considered a legacy class. 
+It's generally recommended to use ArrayList in single-threaded environments due to performance considerations. 
+
+Resizing Mechanism: When the current capacity of the vector is exceeded, it doubles its size by default 
+(or increases by a specific capacity increment if provided). 
+
+Random Access: Similar to arrays and ArrayList, Vector allows random access to elements, making it efficient for accessing elements using an index.
