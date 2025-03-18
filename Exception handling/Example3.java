@@ -30,7 +30,7 @@ public class Example3 {
             System.out.println(ex.getMessage());
         }
 
-        finally{
+        finally{  //Always Executed
             System.out.println("Always Executed");
         }
         

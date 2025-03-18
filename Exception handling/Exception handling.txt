@@ -5,3 +5,9 @@ Main keywords
 *finally
 *throw
 *throws
+
+
+**Types of Exceptions
+-Checked  > at compile time
+-Unchecked > at run time
+-Custom > usermade exception
